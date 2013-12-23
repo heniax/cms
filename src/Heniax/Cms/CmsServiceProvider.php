@@ -20,7 +20,7 @@ class CmsServiceProvider extends ServiceProvider {
 	{
 		$this->package('heniax/cms', 'HeniaxCMS');
 
-		// Include the package routes.php file
+		// Include the package routes.php and filters.php files
 		include __DIR__.'/../../routes.php';
 		include __DIR__.'/../../filters.php';
 	}
